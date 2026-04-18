@@ -32,10 +32,10 @@ export function Sidebar() {
                 Todo
                 <img src={todoListIcon} className="size-7 " />
               </Link>
-              <Link  to="priority">
+              <Link  to="todo/priority">
                 Priority
               </Link>
-              <Link  to="completed">
+              <Link  to="todo/completed">
                 Completed
               </Link>
             </div>
