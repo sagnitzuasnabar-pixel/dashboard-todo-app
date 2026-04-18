@@ -2,11 +2,16 @@ import { Link } from "react-router";
 import homeIcon  from '../../../assets/home_FFFFFF.svg';
 import todoListIcon from '../../../assets/todo-list_FFFFFF.svg';
 import personIcon from '../../../assets/person_FFFFFF.svg';
+import { UserSection } from "./user-section";
+
 export function Sidebar() {
   return (
     <aside className="w-full lg:w-80 lg:min-h-screen bg-sky-950/85 backdrop-blur-xl border-sky-800/40 border-b lg:border-r lg:border-b-0">
       <div className="flex h-full flex-col px-5 py-6 lg:px-6">
-        <div className="mt-8">
+        <div className="mt-8 flex flex-col gap-4">
+          
+          <UserSection />
+          
           <h2 className="text-xs font-semibold uppercase text-slate-500">
             Navigation
           </h2>
