@@ -28,7 +28,7 @@ export const TodoPage = () => {
           </div>
           
           <TodoList
-            todos={getFilteredTodos()}
+            todos={getFilteredTodos}
             onDelete={deleteTodo}
             onToggle={toggleTodo}
           />
