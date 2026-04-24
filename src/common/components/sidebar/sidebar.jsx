@@ -45,6 +45,14 @@ export function Sidebar() {
               </Link>
             </div>
 
+            <h2 className="text-xs font-semibold uppercase text-slate-500 mt-2">
+              Pokemon-Module
+            </h2>
+
+            <Link className="flex items-center gap-2" to="/pokemon">
+              Pokemon
+            </Link>
+            
           </nav>
         </div>
       </div>
